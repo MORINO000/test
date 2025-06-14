@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="az">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yapon Məhsullarının Pulsuz Dadım Günü - Tokyo Plaza Azerbaijan</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        /* Google Fonts - Inter (Ümumi şrift) */
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #f7fafc; /* Tailwind gray-100 */
+        }
+        .container {
+            max-width: 1200px;
+        }
+        /* Xüsusi stillər (ehtiyac olarsa əlavə edin) */
+        .hero-section {
+            background-image: url('https://placehold.co/1200x600/f5f5f5/555555?text=Ləzzətli+Yapon+Məhsulları'); /* Yer tutucu şəkil */
+            background-size: cover;
+            background-position: center;
+            height: 400px; /* Hündürlüyü tənzimləyin */
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            color: white;
+            position: relative;
+        }
+        .hero-overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.5); /* Yarı-şəffaf örtük */
+            border-radius: 12px; /* Tailwind's rounded-xl ilə uyğun */
+        }
+    </style>
+</head>
+<body class="bg-gray-100 text-gray-800">
+    <div class="min-h-screen flex flex-col items-center">
+        <!-- Header Bölməsi -->
+        <header class="w-full bg-white shadow-md py-4">
+            <div class="container mx-auto px-4 flex justify-between items-center">
+                <h1 class="text-3xl font-bold text-red-600">Tokyo Plaza Azerbaijan</h1>
+                <nav>
+                    <ul class="flex space-x-6">
+                        <li><a href="#event-details" class="text-gray-700 hover:text-red-600 font-semibold">Tədbir Detalları</a></li>
+                        <li><a href="#contact" class="text-gray-700 hover:text-red-600 font-semibold">Əlaqə</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+
+        <!-- Hero Bölməsi -->
+        <section class="w-full hero-section mb-12 rounded-xl overflow-hidden shadow-lg">
+            <div class="hero-overlay p-8">
+                <h2 class="text-5xl font-extrabold mb-4 drop-shadow-lg">
+                    <span class="bg-yellow-400 text-gray-900 px-4 py-2 rounded-lg inline-block mr-2 animate-bounce">Pulsuz!</span> Yapon Məhsullarının Dadım Günü keçirilir!
+                </h2>
+                <p class="text-xl md:text-2xl font-semibold mb-6">
+                    Azərbaycanda Yapon dadlarını kəşf edin!
+                </p>
+                <a href="#event-details" class="bg-red-600 hover:bg-red-700 text-white font-bold py-3 px-8 rounded-full shadow-lg transition duration-300 ease-in-out transform hover:scale-105">
+                    Ətraflı Bax
+                </a>
+            </div>
+        </section>
+
+        <main class="container mx-auto px-4 py-8 flex-grow">
+            <!-- Tədbir Detalları Bölməsi -->
+            <section id="event-details" class="bg-white p-8 rounded-xl shadow-lg mb-12">
+                <h3 class="text-4xl font-bold text-center text-gray-900 mb-8">Tədbir Detalları</h3>
+
+                <div class="grid md:grid-cols-2 gap-8 items-center">
+                    <div>
+                        <h4 class="text-2xl font-semibold text-gray-800 mb-4 flex items-center">
+                            <svg class="w-7 h-7 text-red-500 mr-2" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm1-12a1 1 0 10-2 0v4a1 1 0 00.293.707l3 3a1 1 0 001.414-1.414L11 9.586V6z" clip-rule="evenodd"></path></svg>
+                            Tədbir Tarixləri
+                        </h4>
+                        <p class="text-lg text-gray-700 mb-6">
+                            <span class="font-bold text-red-600">2025-ci il 14 iyun (Cümə)</span> - <span class="font-bold text-red-600">20 iyun (Cümə axşamı)</span>!
+                        </p>
+
+                        <h4 class="text-2xl font-semibold text-gray-800 mb-4 flex items-center">
+                            <svg class="w-7 h-7 text-red-500 mr-2" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path d="M7 3a1 1 0 000 2h6a1 1 0 100-2H7z"></path><path fill-rule="evenodd" d="M.93 7.424A4.982 4.982 0 004 9h12a4.982 4.982 0 003.07-1.576.75.75 0 011.05 1.05l-1.5 1.5a1.75 1.75 0 01-2.475 0L12 8.061l-2.075 2.074a1.75 1.75 0 01-2.475 0l-1.5-1.5a.75.75 0 011.05-1.05L7 7.939zM16 11.5v3.25A1.25 1.25 0 0114.75 16H5.25A1.25 1.25 0 014 14.75V11.5h12zm-3 2.5h-2v-1h2v1zm-4 0H7v-1h2v1z" clip-rule="evenodd"></path></svg>
+                            Tədbir Məzmunu
+                        </h4>
+                        <ul class="list-disc list-inside text-lg text-gray-700 space-y-2 mb-6 pl-5">
+                            <li><span class="font-bold text-red-600">60-dan çox</span> Yapon məhsulu arasından <span class="font-bold text-red-600">5 növünü</span> pulsuz dada bilərsiniz!</li>
+                            <li>Şirniyyatlar, içkilər və Yaponiyada məşhur olan bir çox növ məhsullar təqdim olunacaq.</li>
+                            <li>Ailəniz və dostlarınızla birlikdə yeni favoritlərinizi kəşf edin!</li>
+                        </ul>
+
+                        <h4 class="text-2xl font-semibold text-gray-800 mb-4 flex items-center">
+                            <svg class="w-7 h-7 text-red-500 mr-2" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M5.05 4.05a7 7 0 119.9 9.9L10 18.9l-4.95-4.95a7 7 0 010-9.9zM10 11a2 2 0 100-4 2 2 0 000 4z" clip-rule="evenodd"></path></svg>
+                            Məkan
+                        </h4>
+                        <p class="text-lg text-gray-700 mb-6">
+                            Tokyo Plaza Azerbaijan
+                            <br>
+                            [Konkret ünvanı buraya daxil edin. Məsələn: Bakı şəhəri, Abşeron küçəsi 123]
+                        </p>
+                        <div class="mt-4">
+                            <!-- Google Xəritə Yer Tutucusu -->
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d24307.728956976664!2d49.814328249999995!3d40.3950294!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40307d0f9f3b5e7d%3A0xf0c8e3b5e7d5e7d5!2sBaku%2C%20Azerbaijan!5e0!3m2!1sen!2sus!4v1678912345678!5m2!1sen!2sus"
+                                width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="rounded-lg shadow-md"></iframe>
+                        </div>
+                    </div>
+                    <div class="hidden md:block">
+                        <img src="https://placehold.co/600x400/FFDDDD/000000?text=Yapon+Qəlyanaltıları+Çeşidi" alt="Yapon qəlyanaltılarının çeşidi" class="rounded-lg shadow-md w-full h-auto object-cover">
+                        <p class="text-sm text-gray-500 text-center mt-2">Tədbirdə dadılacaq məhsulların şəkli</p>
+                    </div>
+                </div>
+
+                <div class="mt-8 p-6 bg-red-50 border-l-4 border-red-500 text-red-700 rounded-lg shadow-inner">
+                    <p class="font-bold text-xl mb-2 flex items-center">
+                        <svg class="w-6 h-6 text-red-500 mr-2" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-7 4a1 1 0 11-2 0 1 1 0 012 0zm-1-9a1 1 0 00-1 1v4a1 1 0 102 0V6a1 1 0 00-1-1z" clip-rule="evenodd"></path></svg>
+                        【Diqqət】
+                    </p>
+                    <ul class="list-disc list-inside space-y-1 pl-5">
+                        <li>Dadılacaq məhsulların sayı məhduddur. Məhsullar bitdikdən sonra tədbir başa çatacaq, bu səbəbdən tez gəlməyiniz tövsiyə olunur.</li>
+                        <li>Tədbir məzmunu xəbərdarlıq edilmədən dəyişdirilə bilər. Ən son məlumat üçün bu səhifəni və ya mağazamızı yoxlayın.</li>
+                    </ul>
+                </div>
+            </section>
+
+            <!-- Fəaliyyətə Çağırış (CTA) Bölməsi -->
+            <section class="bg-blue-600 text-white p-8 rounded-xl shadow-lg text-center mb-12">
+                <h3 class="text-3xl font-bold mb-4">Yaponiyanın ləzzətli dadlarını təcrübə edin!</h3>
+                <p class="text-lg mb-6">Sizi mağazamızda gözləyirik.</p>
+                <a href="#contact" class="bg-white text-blue-600 hover:bg-gray-100 font-bold py-3 px-8 rounded-full shadow-lg transition duration-300 ease-in-out transform hover:scale-105">
+                    Buradan Əlaqə Saxlayın
+                </a>
+            </section>
+
+            <!-- Əlaqə Forması Bölməsi -->
+            <section id="contact" class="bg-white p-8 rounded-xl shadow-lg">
+                <h3 class="text-4xl font-bold text-center text-gray-900 mb-8">Əlaqə</h3>
+                <p class="text-center text-lg text-gray-700 mb-6">Tədbirlə bağlı suallarınız və ya tələbləriniz varsa, bizimlə əlaqə saxlamaqdan çəkinməyin.</p>
+
+                <form class="max-w-xl mx-auto space-y-6">
+                    <div>
+                        <label for="name" class="block text-gray-700 text-lg font-semibold mb-2">Adınız <span class="text-red-500">*</span></label>
+                        <input type="text" id="name" name="name" required
+                               class="w-full px-4 py-3 rounded-lg border-gray-300 focus:border-blue-500 focus:ring-blue-500 focus:ring-1 transition duration-200 ease-in-out shadow-sm">
+                    </div>
+                    <div>
+                        <label for="email" class="block text-gray-700 text-lg font-semibold mb-2">E-poçt ünvanınız <span class="text-red-500">*</span></label>
+                        <input type="email" id="email" name="email" required
+                               class="w-full px-4 py-3 rounded-lg border-gray-300 focus:border-blue-500 focus:ring-blue-500 focus:ring-1 transition duration-200 ease-in-out shadow-sm">
+                    </div>
+                    <div>
+                        <label for="phone" class="block text-gray-700 text-lg font-semibold mb-2">Telefon Nömrəsi (Könüllü)</label>
+                        <input type="tel" id="phone" name="phone"
+                               class="w-full px-4 py-3 rounded-lg border-gray-300 focus:border-blue-500 focus:ring-blue-500 focus:ring-1 transition duration-200 ease-in-out shadow-sm">
+                    </div>
+                    <div>
+                        <label for="message" class="block text-gray-700 text-lg font-semibold mb-2">Müraciət Məzmunu <span class="text-red-500">*</span></label>
+                        <textarea id="message" name="message" rows="5" required
+                                  class="w-full px-4 py-3 rounded-lg border-gray-300 focus:border-blue-500 focus:ring-blue-500 focus:ring-1 transition duration-200 ease-in-out shadow-sm"></textarea>
+                    </div>
+                    <div class="text-center">
+                        <button type="submit"
+                                class="bg-red-600 hover:bg-red-700 text-white font-bold py-3 px-10 rounded-full shadow-lg transition duration-300 ease-in-out transform hover:scale-105">
+                            Göndər
+                        </button>
+                    </div>
+                </form>
+            </section>
+        </main>
+
+        <!-- Footer Bölməsi -->
+        <footer class="w-full bg-gray-800 text-white py-6 mt-12">
+            <div class="container mx-auto px-4 text-center">
+                <p>&copy; 2025 Tokyo Plaza Azerbaijan. Bütün hüquqlar qorunur.</p>
+                <div class="mt-2 text-sm">
+                    <a href="#" class="text-gray-400 hover:text-white mx-2">Məxfilik Siyasəti</a> |
+                    <a href="#" class="text-gray-400 hover:text-white mx-2">İstifadə Şərtləri</a>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <script>
+        // Smooth scrolling for navigation links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+
+        // Simple form submission (for demonstration, no backend)
+        document.querySelector('form').addEventListener('submit', function(e) {
+            e.preventDefault(); // Prevent actual form submission
+
+            // For a real application, you would send this data to a server
+            // For now, we'll just show a confirmation message.
+            const name = document.getElementById('name').value;
+            const email = document.getElementById('email').value;
+            const message = document.getElementById('message').value;
+
+            // Simple validation
+            if (!name || !email || !message) {
+                alert('Adınız, E-poçt ünvanınız və Müraciət Məzmunu məcburi sahələrdir.'); // Use custom modal in a real app
+                return;
+            }
+
+            // In a real app, send data to your backend here
+            console.log('Form Submitted:', { name, email, message });
+
+            // Display a success message (using alert for simplicity, replace with custom modal)
+            alert('Müraciətiniz üçün təşəkkür edirik. Məlumatı nəzərdən keçirdikdən sonra sizinlə əlaqə saxlayacağıq.');
+
+            // Optionally clear the form
+            this.reset();
+        });
+    </script>
+</body>
+</html>
